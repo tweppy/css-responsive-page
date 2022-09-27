@@ -10,3 +10,6 @@
 	- #536DFE - Knappar
 
 Kolla in denna JSFiddle för se en slide-in meny https://jsfiddle.net/eaqxgbk7/
+
+
+375 x 812px

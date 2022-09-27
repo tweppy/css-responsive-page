@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F8F8F8;
+}
+
+div.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%; /* only 1 col since mobile */
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "header-nav"
+    "text-box"
+    "image-box";
+}
+
+/* header */
+header.header-nav {
+    grid-area: header-nav;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2.5rem 2rem 1rem 0;
+}
+
+/* text box */
+article.text-box {
+    grid-area: text-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* image box */
+article.image-box {
+    grid-area: image-box;
+    background-image: url('/images/undraw_pet_adoption_mobile.png');
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+article.image-box > img {
+    width: 100%;
+}
+
+/* desktop */
