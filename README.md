@@ -12,4 +12,8 @@
 Kolla in denna JSFiddle för se en slide-in meny https://jsfiddle.net/eaqxgbk7/
 
 
-375 x 812px
+mockup mob: 375 x 812px
+mockup desk: 1440 x 816
+
+mob img: 375 x 369
+desk img: 537 x 492
